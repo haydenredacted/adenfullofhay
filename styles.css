@@ -79,4 +79,10 @@ a:hover {
 animation: color-change 5s infinite;
 }
 
+.zoom {
+    transition: transform 0.3s ease;
+}
 
+.zoom:hover {
+    transform: scale(2);
+}
